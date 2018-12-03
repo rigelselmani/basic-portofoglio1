@@ -5,6 +5,10 @@
 
 .about-me {
     color:  rgb(23, 146, 146);
+    font-style: italic;
+}
+.headshot {
+    float: right;
 }
 .container {
     border-inline-end-style: groove;
