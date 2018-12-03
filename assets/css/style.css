@@ -1,36 +1,43 @@
-.container {
-    font-family: serif;
-    margin: 0;
-    display: inline-block;
-    margin: 0;
-}
-h1 {
-    float: left;
-    color: white;
-    font-family: verdana;
-}
-nav {
-    float: right;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-header {
-    background:white;
-    background-color: #4aaaa5;
+.rigel {
+     box-shadow: black;
+     width: 30px;
 }
 
-.headshot {
-    float: left;
+.about-me {
+    color:  rgb(23, 146, 146);
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #666666;
-    color: white;
-    text-align: center;
+.container {
+    border-inline-end-style: groove;
+}
+
+.page-footer  {
+    background-color: rgb(23, 146, 146);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+    color: rgb(23, 146, 146)
 }
