@@ -1,47 +1,41 @@
-.rigel {
-     box-shadow: black;
-     width: 30px;
+
+
+.rigel{
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-family: Georgia, Times New Roman ;
+    background-size: 150px;
+    -webkit-text-fill-color: white;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    padding: 1px;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+    grid-template-columns: auto;  
+}   
+.grid-container>div {
+    padding:45px 0;
+    font-size: 20px;
+      }
+.h1 {
+    color: #4aaaa5;
+}      
+.page-footer {
+    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
 }
 
-.about-me {
-    color:  rgb(23, 146, 146);
-    font-style: italic;
-}
-.headshot {
-    float: right;
-}
-.container {
-    border-inline-end-style: groove;
-}
-
-.page-footer  {
-    background-color: rgb(23, 146, 146);
-}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact {
-    color: rgb(23, 146, 146)
-}
