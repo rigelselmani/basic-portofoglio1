@@ -1,13 +1,14 @@
-
-
 .rigel{
     background-color: #4aaaa5;
     font-weight: bold;
-    font-family: Georgia, Times New Roman ;
-    background-size: 150px;
+    /* font-family: Georgia, Times New Roman ; */
     -webkit-text-fill-color: white;
-    padding: 20px;
+    padding: 25px;
 }
+    * {
+        box-sizing: border-box;
+      }
+
 .grid-container {
     display: grid;
     padding: 1px;
@@ -21,7 +22,19 @@
       }
 .h1 {
     color: #4aaaa5;
-}      
+}     
+.border {
+    border: 1px;
+    background: #ffffff;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+} 
+
+.about-me {
+    color: #4aaaa5;
+    font-weight: bold;
+}
 .page-footer {
     background: #666666;
     position: fixed;
@@ -30,12 +43,19 @@
     width: 100%;
     color: white;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
     
 }
 
 
 
+.line {
+    float: center;
+}
+.line1 {
+    float:center;
+}
 
-
-
-
+.contact {
+    align-content: center;
+}
