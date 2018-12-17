@@ -10,12 +10,10 @@
  .navbar{
     height: 90px;
     border-bottom: 2px solid #cccccc;
+    margin: 0;
   }
 
 #rigel{
-    float: left;
-    width: 250px;
-    height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     font-weight: 700;
@@ -24,22 +22,9 @@
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-    
 }
-    * {
-        box-sizing: border-box;
-      }
-
-.grid-container {
-    display: grid;
-    padding: 1px;
-    grid-row-gap: 10px;
-    grid-column-gap: 0px;
-    grid-template-columns: auto;  
-}   
 .grid-container>div {
-    padding:45px 0;
-    font-size: 20px;
+    padding:50px 0;
       }
 .h1 {
     color: #4aaaa5;
@@ -50,11 +35,14 @@
     padding-right: 30px;
     padding-bottom: 20px;
     padding-left: 40px;
-} 
+    padding-top: 20px;
+}
+
 
 .about-me {
     color: #4aaaa5;
     font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 .page-footer {
     background: #666666;
@@ -64,19 +52,20 @@
     width: 100%;
     color: white;
     text-align: center;
-    border-top: 8px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     
 }
-
-
-
-.line {
-    float: center;
-}
-.line1 {
-    float:center;
-}
-
-.contact {
-    align-content: center;
-}
+  
+.card-img-top {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+.card {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    padding: 10px;
+  }
