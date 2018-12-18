@@ -11,6 +11,7 @@
     height: 90px;
     border-bottom: 2px solid #cccccc;
     margin: 0;
+    
   }
 
 #rigel{
@@ -37,7 +38,10 @@
     padding-left: 40px;
     padding-top: 20px;
 }
-
+img{
+    float: left;
+    padding: 10px;
+}
 
 .about-me {
     color: #4aaaa5;
@@ -68,4 +72,9 @@
     margin: 20px 0 25px;
     overflow: auto;
     padding: 10px;
+  }
+  .btn{
+      margin-top: 10px;
+      background-color: #4aaaa5;
+      width: 90px;
   }
