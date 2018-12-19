@@ -11,9 +11,18 @@
     height: 90px;
     border-bottom: 2px solid #cccccc;
     margin: 0;
-    
   }
-
+a{
+    display: inline-block;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left : 1px solid #efefef ;
+  
+}
+nav a:first-child {
+    border-left: 0 none;
+  }
 #rigel{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -27,8 +36,12 @@
 .grid-container>div {
     padding:50px 0;
       }
-.h1 {
+h1 {
     color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
 }     
 .border {
     border: 1px;
@@ -37,6 +50,8 @@
     padding-bottom: 20px;
     padding-left: 40px;
     padding-top: 20px;
+    height: 590px;
+    width: 1030px;
 }
 img{
     float: left;
@@ -60,18 +75,29 @@ img{
     
 }
   
-.card-img-top {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
+.work h3 {
+    position: absolute;
+    bottom: 25px;
+    width: 280px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    margin-left: 10px;
   }
-.card {
+.work{
     position: relative;
     float: left;
-    width: 274px;
-    margin: 20px 0 25px;
+    width: 300px;
+    margin: 10px 05px;
     overflow: auto;
-    padding: 10px;
+    /* padding: 10px; */
+    opacity: 0.8;
+    border: 0 none;
   }
   .btn{
       margin-top: 10px;
